@@ -60,7 +60,7 @@ public class Main {
     *
     * Stream API serve para realizar operaçoes funcionais nas nossas collections
     (estruturas de dados), usando ela da pra usar:MAP, FILTER, REDUCE, agregacao
-6
+
     * */
 
 }
