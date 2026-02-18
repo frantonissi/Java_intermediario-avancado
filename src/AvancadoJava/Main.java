@@ -64,7 +64,7 @@ public class Main {
     filter: filtra os elementos de uma colecao
     map: transforma os elementos de uma colecao
     * reduce: reduz os elementos de uma colecao
-    * agregacoes: soma, media, contagem
+    * agregacoes: soma, media,
     * */
 
 }
