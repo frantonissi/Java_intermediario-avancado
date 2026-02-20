@@ -8,6 +8,9 @@ public class Main {
         lista.add("Hello");
         lista.add("Fernanda");
         lista.add("Francisco");
+        lista.add("Francisco roberto");
+        lista.add("Francisco Souza");
+        lista.add("Francisco seila");
         lista.add("Lucas");
         lista.add("Sei la");
 
@@ -46,6 +49,9 @@ public class Main {
         System.out.println("////////////////");
 
         LinkedList<String> linkedList = new LinkedList<>();//Isso é uma lista encadeada
+
+        List<String> franciscos = lista.stream().filter(nome -> nome.startsWith("Francisco")).map(String::toUpperCase).toList();
+        System.out.println("Lista de francisco: " + franciscos);
 
 
     }
