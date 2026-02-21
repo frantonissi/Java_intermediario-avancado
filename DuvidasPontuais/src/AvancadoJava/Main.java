@@ -14,6 +14,5 @@ public class Main {
     bolsaNinja.exxcluirFerramenta(0);
         System.out.println("Itens atualizados da bolsa ninja: ");
         bolsaNinja.mostrarFerramenta();
-        //nao sei
     }
 }
